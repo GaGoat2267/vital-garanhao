@@ -17,7 +17,7 @@ Aba **Web** → **Add a new web app** → **Next** → **Manual configuration** 
 Aba **Consoles** → **Bash**. Cole as linhas abaixo, uma de cada vez:
 
 ```
-git clone https://github.com/gafodase/vital-garanhao.git
+git clone https://github.com/GaGoat2267/vital-garanhao.git
 cd vital-garanhao
 bash setup_pythonanywhere.sh
 ```
