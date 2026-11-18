@@ -1,4 +1,4 @@
-# VITAL GARANHAO
+# TrabProgramação
 
 Aplicativo web de **controle financeiro pessoal**: investimentos, receitas e despesas, metas e simulador, com **login e cadastro** e dados separados por usuário.
 

@@ -1,4 +1,4 @@
-"""VITAL GARANHAO — backend Flask + SQLite, com login e cadastro de usuários.
+"""TrabProgramação — backend Flask + SQLite, com login e cadastro de usuários.
 
 Rodar:
     pip install -r requirements.txt
@@ -237,7 +237,7 @@ def fetch_market(ticker):
     token = os.environ.get("BRAPI_TOKEN")
     if token:
         url += "&token=" + urllib.parse.quote(token)
-    req = urllib.request.Request(url, headers={"User-Agent": "vital-garanhao"})
+    req = urllib.request.Request(url, headers={"User-Agent": "TrabProgramacao"})
     with urllib.request.urlopen(req, timeout=QUOTE_TIMEOUT) as resp:
         result = json.load(resp)["results"][0]
     price = float(result["regularMarketPrice"])
