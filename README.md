@@ -15,7 +15,6 @@ Não coloque dados financeiros reais: é uma versão de demonstração.
 - **Renda fixa** (CDB, LCI, LCA, Tesouro, Poupança): rendimento por CDI, IPCA+ ou taxa fixa, com **IR e IOF** calculados.
 - **Renda variável** (ações, FIIs, ETFs e BDRs): lista completa da B3 para escolher o ativo, com quantidade, preço pago e **cotação atual, lucro e prejuízo**.
 - **Proventos** (dividendos, JCP e rendimentos): média mensal e total recebido de cada ativo, gráfico dos últimos 12 meses e o que ainda vai cair.
-- **Assistente de IA:** tira dúvidas ("se eu investir R$ 1.000 em CDB, o que acontece?") e faz as contas com as regras do próprio app. Precisa de uma chave da API (veja o DEPLOY.md).
 - **Meta de renda passiva:** defina quanto quer receber por mês e acompanhe o progresso.
 - **Recuperação de senha** por código (veja Segurança).
 - **Receitas e despesas** por categoria, com o saldo do mês.
@@ -30,7 +29,6 @@ Não coloque dados financeiros reais: é uma versão de demonstração.
 
 | Versão | O que mudou |
 |--------|-------------|
-| **v1.8** | Assistente de IA para tirar dúvidas sobre investimentos |
 | **v1.7** | Gráfico de proventos por mês, meta de renda passiva e recuperação de senha |
 | **v1.6** | Aba **Proventos**: quanto cada ativo paga por mês e quanto você já recebeu |
 | **v1.5** | Cotações ao vivo (brapi.dev) com lucro e prejuízo em ações, FIIs, ETFs e BDRs |
@@ -131,7 +129,6 @@ vital-garanhao/
 | DELETE | `/api/goals/<id>` | Exclui meta |
 | POST | `/api/recover` | Define nova senha com o código de recuperação |
 | POST | `/api/recovery-code` | Gera um novo código de recuperação (logado, pede a senha) |
-| POST | `/api/ask` | Faz uma pergunta ao assistente de IA |
 | PUT | `/api/income-goal` | Define a meta de renda passiva mensal |
 | PUT | `/api/settings` | Altera o CDI de referência |
 | POST | `/api/simulate` | Simulador de juros compostos |

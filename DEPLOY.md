@@ -77,17 +77,3 @@ Sem configurar nada, a brapi.dev cota só alguns ativos (PETR4, VALE3, ITUB4, MG
 1. Crie uma conta grátis em https://brapi.dev e copie o seu token.
 2. Aba **Web** → seção **Code** → abra o arquivo WSGI e acrescente, antes da última linha, `os.environ['BRAPI_TOKEN'] = 'SEU_TOKEN'`.
 3. Clique em **Reload**.
-
-## Assistente de IA (opcional)
-
-A aba **Assistente** usa a API da Anthropic. Sem chave, ela avisa que não está configurada e o resto do site funciona normalmente.
-
-1. Crie uma conta em https://console.anthropic.com, adicione crédito e gere uma chave de API (começa com `sk-ant-`).
-2. Aba **Web** do PythonAnywhere → abra o arquivo WSGI e acrescente, antes da última linha: `os.environ['ANTHROPIC_API_KEY'] = 'SUA_CHAVE'`
-3. Clique em **Reload**.
-
-Cuidados:
-- **Nunca** coloque a chave no GitHub nem em arquivos do projeto. Ela só vale no arquivo WSGI do servidor.
-- Cada pergunta custa um pouco. O app limita cada usuário a 20 perguntas por hora e 80 por dia. Veja o gasto no console da Anthropic.
-- O modelo padrão é `claude-haiku-5-5`, que é o mais barato. Para trocar, defina `AI_MODEL` do mesmo jeito.
-- A conta gratuita do PythonAnywhere só acessa sites de uma lista. Se o assistente responder "não conseguiu responder agora" mesmo com a chave certa, confira se `api.anthropic.com` está em https://www.pythonanywhere.com/whitelist/.
