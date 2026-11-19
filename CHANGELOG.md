@@ -2,6 +2,13 @@
 
 Tudo o que mudou no projeto, da primeira versão até agora. A mais recente vem primeiro.
 
+## v1.8: Assistente de IA (19/11/2026)
+- Nova aba **Assistente**: o usuário escreve uma dúvida e a IA responde em linguagem simples.
+- Perguntas com números de renda fixa usam uma ferramenta que calcula com as mesmas regras do app (CDI, IR, IOF), em vez de a IA fazer a conta de cabeça.
+- A chave da API fica só no servidor (`ANTHROPIC_API_KEY`). Sem a chave, o resto do site funciona e o assistente avisa que não está configurado.
+- Limite de 20 perguntas por hora e 80 por dia para cada usuário.
+- Correção no celular: o botão de recuperação de senha no topo mostra só o ícone, e o botão Sair deixou de ficar cortado.
+
 ## v1.7: Gráfico, meta de renda e recuperação de senha (09/11/2026)
 - Aba Proventos: **gráfico de barras** com o que você recebeu nos últimos 12 meses.
 - **Meta de renda passiva por mês**: linha tracejada no gráfico e barra de progresso.
