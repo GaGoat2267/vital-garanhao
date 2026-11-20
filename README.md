@@ -29,6 +29,7 @@ Não coloque dados financeiros reais: é uma versão de demonstração.
 
 | Versão | O que mudou |
 |--------|-------------|
+| **v1.8** | Novo visual: azul, branco e verde-limão (site e PDF) |
 | **v1.7** | Gráfico de proventos por mês, meta de renda passiva e recuperação de senha |
 | **v1.6** | Aba **Proventos**: quanto cada ativo paga por mês e quanto você já recebeu |
 | **v1.5** | Cotações ao vivo (brapi.dev) com lucro e prejuízo em ações, FIIs, ETFs e BDRs |

@@ -2,6 +2,12 @@
 
 Tudo o que mudou no projeto, da primeira versão até agora. A mais recente vem primeiro.
 
+## v1.8: Novo visual (19/11/2026)
+- Site com a paleta azul (#0131CD), branco (#FFFFFF) e verde-limão (#B9FC01): menu lateral azul, botões principais em limão, fundo claro.
+- Tela de login e cadastro nas mesmas cores.
+- No celular, o botão de recuperação de senha mostra só o ícone, e o botão Sair deixou de ficar cortado.
+- Prints do README e PDF explicativo refeitos no novo visual.
+
 ## v1.7: Gráfico, meta de renda e recuperação de senha (09/11/2026)
 - Aba Proventos: **gráfico de barras** com o que você recebeu nos últimos 12 meses.
 - **Meta de renda passiva por mês**: linha tracejada no gráfico e barra de progresso.
