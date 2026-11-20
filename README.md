@@ -41,6 +41,8 @@ Não coloque dados financeiros reais: é uma versão de demonstração.
 
 Detalhes de cada versão no [CHANGELOG](CHANGELOG.md).
 
+Apresentação do projeto em PDF: [apresentacao pdf](<apresentacao pdf/TrabProgramacao-apresentacao.pdf>).
+
 ## Tecnologias
 
 - **Python 3 + Flask**: servidor, login, API e todos os cálculos (rendimento, IR, IOF, simulador).
